@@ -1,0 +1,26 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# --- Virtual Environments ---
+# Excluding the venv folder seen in your file path
+venv/
+env/
+.env
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Streamlit ---
+# Ignore your local secrets, but keep the config if you want
+.streamlit/secrets.toml
+
+# --- IDE & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Notebooks ---
+.ipynb_checkpoints
